@@ -303,12 +303,12 @@ main .main-captions span {
   }
   main .main-img {
     top: 85%;
-    inset-inline-start: 50%;
-    transform: translate(50%, -50%);
+    /* inset-inline-start: 50%; */
+    transform: translateY(-50%);
     width: 50%;
   }
   html[dir="ltr"] main .main-img {
-    transform: translate(-50%, -50%) scaleX(-1);
+    transform: translateY(-50%) scaleX(-1);
   }
 }
 @media (max-width: 480px) {
@@ -424,6 +424,12 @@ main .main-captions span {
   text-transform: capitalize;
   margin-bottom: 8px;
 }
+.review-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 .review-span {
   font-size: 34px;
   font-weight: 800;
@@ -453,6 +459,12 @@ main .main-captions span {
   color: var(--sec-color);
   font-size: 16px;
   margin-bottom: 25px;
+}
+.rate-box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 .review-pargh {
   font-size: 18px;
@@ -504,6 +516,16 @@ main .main-captions span {
   .review-slider {
     margin-top: 30px;
     padding-bottom: 50px;
+  }
+  .review{
+    /* align-items: flex-start; */
+  }
+  .review-box{
+    flex-direction: row;
+  }
+  .rate-box{
+    margin-inline-start: 15px;
+    align-items: flex-start;
   }
   .review-title {
     margin-bottom: 45px;
@@ -856,7 +878,7 @@ footer .link-btn-cont {
     display: block;
     position: relative;
     z-index: 300;
-    width: 16px;
+    width: 24px;
   }
   .fixed-nav .nav-header figure img,
   .nav-header figure img {
@@ -868,7 +890,7 @@ footer .link-btn-cont {
   .menu-bars {
     display: flex;
     align-items: center;
-    font-size: 18px;
+    font-size: 24px;
     font-weight: 700;
     color: var(--sec-color);
     transition: all 0.3s ease-in-out;
@@ -934,7 +956,7 @@ footer .link-btn-cont {
     flex-direction: column;
     text-align: start;
     align-items: baseline;
-    padding: 30px 20px 0;
+    padding: 60px 20px 0;
   }
   .nav-header li {
     margin: 0;
