@@ -393,6 +393,7 @@ main .main-captions span {
   .counter-cont {
     width: 100%;
     grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
   }
   .counter-box .counter-num{
     font-size: 36px;
@@ -501,8 +502,8 @@ main .main-captions span {
 
 @media (max-width: 991px) {
   .review-slider {
-    margin-top: 50px;
-    padding-bottom: 40px;
+    margin-top: 30px;
+    padding-bottom: 50px;
   }
   .review-title{
     margin-bottom: 45px;
@@ -519,7 +520,7 @@ main .main-captions span {
   }
   .swiper-btn {
     top: unset;
-    bottom: -45px;
+    bottom: -50px;
   }
   .swiper-btn.swiper-btn-next {
     left: 40%;
@@ -593,7 +594,7 @@ html[dir="ltr"] .features-img{
 
 @media (max-width: 767px) {
   .features-section {
-    padding: 300px 0 80px;
+    padding: 325px 0 70px;
   }
   .features-img{
     width: 80%;
@@ -677,10 +678,10 @@ html[dir="ltr"] .features-img{
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-.screen-section .screen:hover img {
+/* .screen-section .screen:hover img {
   -webkit-transform: scale(1.05);
   transform: scale(1.05);
-}
+} */
 .screen-slider .swiper-pagination {
   position: relative;
   width: 100%;
@@ -736,6 +737,7 @@ html[dir="ltr"] .features-img{
 @media (max-width: 991px) {
   .screen-section .swiper-btn{
     display: flex;
+    bottom: -75px;
   }
   .screen-section {
     margin: 60px 0 0;
@@ -790,6 +792,7 @@ footer .link-btn-cont {
 @media (max-width: 767px) {
   footer {
     padding: 50px 0;
+    margin-top: 70px;
     margin-bottom: 0;
   }
   .footer-head{
@@ -802,7 +805,7 @@ footer .link-btn-cont {
     margin-bottom: 35px;
   }
   .copy-right{
-    margin-top: 115px;
+    margin-top: 90px;
   }
 }
 /*                                   footer                            */
