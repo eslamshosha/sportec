@@ -314,6 +314,7 @@ main .main-captions span {
 @media (max-width: 480px) {
   main .main-img{
     width: 72%;
+    top: 80%;
   }
 }
 /*                            main                           */
