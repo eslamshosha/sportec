@@ -517,9 +517,9 @@ main .main-captions span {
     margin-top: 30px;
     padding-bottom: 50px;
   }
-  .review{
-    /* align-items: flex-start; */
-  }
+  /* .review{
+    align-items: flex-start;
+  } */
   .review-box{
     flex-direction: row;
   }
