@@ -589,10 +589,12 @@ main .main-captions .second-caption {
   transform: scaleX(-1);
 } */
 .features-cont {
-  direction: ltr;
   text-align: start;
   /* padding-inline-start: 95px; */
   padding-right: 95px;
+}
+html[dir="ltr"] .features-cont{
+  direction: ltr;
 }
 .features-title {
   font-size: 24px;
