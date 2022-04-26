@@ -66,6 +66,9 @@ header {
   padding: 35px 0 15px;
   transition: all 0.3s ease-in-out;
 }
+html[dir="ltr"] .nav-header{
+  flex-direction: row-reverse;
+}
 .nav-header li a {
   color: var(--main-color);
   font-size: 16px;
@@ -141,16 +144,20 @@ main {
 main .main-img {
   position: absolute;
   top: -30px;
-  inset-inline-start: 0;
+  /* inset-inline-start: 0; */
+  right: 0;
   width: 43%;
   height: auto;
 }
-html[dir="ltr"] main .main-img {
+/* html[dir="ltr"] main .main-img {
   transform: scaleX(-1);
-}
+} */
 .main-cont-relative {
   position: relative;
   height: 100vh;
+}
+html[dir="ltr"] .main-cont-relative{
+  direction: rtl;
 }
 main .main-cont {
   position: absolute;
@@ -290,6 +297,9 @@ main .main-captions .second-caption {
 @media (max-width: 767px) {
   .header-scroll-down-butt {
     display: none;
+  }
+  html[dir="ltr"] .main-cont-relative{
+    direction: ltr;
   }
   main .main-cont {
     top: 155px;
@@ -565,6 +575,7 @@ main .main-captions .second-caption {
   margin-top: 55px;
   padding: 70px 0 125px;
   position: relative;
+  direction: rtl;
 }
 .features-img {
   object-fit: cover;
@@ -574,12 +585,14 @@ main .main-captions .second-caption {
   width: 45%;
   height: auto;
 }
-html[dir="ltr"] .features-img {
+/* html[dir="ltr"] .features-img {
   transform: scaleX(-1);
-}
+} */
 .features-cont {
+  direction: ltr;
   text-align: start;
-  padding-inline-start: 95px;
+  /* padding-inline-start: 95px; */
+  padding-right: 95px;
 }
 .features-title {
   font-size: 24px;
@@ -781,6 +794,7 @@ footer {
   font-size: 48px;
   font-weight: 700;
   color: var(--main-hover);
+  text-transform: uppercase;
 }
 footer .link-btn-cont {
   justify-content: center;
