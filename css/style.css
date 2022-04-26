@@ -894,7 +894,7 @@ footer .link-btn-cont {
     opacity: 0;
     visibility: hidden;
     clip-path: circle(10.9% at 16% 16%);
-    background-color: rgba(30, 30, 30, 0.95);
+    background-color: rgba(18, 17, 18, 0.98);
     transition: 0.4s;
     z-index: 200;
     overflow-y: auto;
