@@ -175,7 +175,7 @@ main .main-captions {
   text-transform: capitalize;
   transition: all 0.3s ease-in-out;
 }
-main .first-caption{
+main .first-caption {
   text-decoration: none;
   font-size: 36px;
   color: var(--main-color);
@@ -288,7 +288,7 @@ main .main-captions .second-caption {
   }
 }
 @media (max-width: 767px) {
-  .header-scroll-down-butt{
+  .header-scroll-down-butt {
     display: none;
   }
   main .main-cont {
@@ -310,14 +310,14 @@ main .main-captions .second-caption {
   .link-btn:last-of-type {
     margin: 0;
   }
-  main .main-captions{
+  main .main-captions {
     margin-bottom: 25px;
   }
-  main .main-captions .first-caption{
+  main .main-captions .first-caption {
     font-size: 24px;
     margin-bottom: 10px;
   }
-  main .main-captions .second-caption{
+  main .main-captions .second-caption {
     font-size: 36px;
   }
   main .main-img {
@@ -439,7 +439,7 @@ main .main-captions .second-caption {
   text-transform: capitalize;
   margin-bottom: 8px;
 }
-.review-box{
+.review-box {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -475,7 +475,7 @@ main .main-captions .second-caption {
   font-size: 16px;
   margin-bottom: 25px;
 }
-.rate-box{
+.rate-box {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -928,7 +928,7 @@ footer .link-btn-cont {
     justify-content: flex-start;
     text-align: center;
     align-items: center;
-    padding: 35% 20px 20px;
+    padding: 45% 20px 20px;
     height: 100%;
   }
   .nav-header li {
@@ -945,7 +945,7 @@ footer .link-btn-cont {
     justify-content: center;
     align-items: center;
     font-size: 30px;
-    color:var(--main-hover);
+    color: var(--main-hover);
   }
   /*                    menu in phone size                      */
 }
@@ -989,8 +989,13 @@ footer .link-btn-cont {
   }
 }
 @media (max-width: 767px) {
-.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl{
-  padding-left: 30px;
-  padding-right: 30px;
-}
+  .container,
+  .container-fluid,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
 }
